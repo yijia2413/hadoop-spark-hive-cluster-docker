@@ -1,3 +1,4 @@
 hadoop-base/files/apache-hive-1.2.1-bin/
 hadoop-base/files/hadoop-2.6.4/
-hadoop-base/files/spark-1.5.2-bin-hadoop2.6/
+hadoop-base/files/spark-1.6.2-bin-hadoop2.6/
+*DS_Store
