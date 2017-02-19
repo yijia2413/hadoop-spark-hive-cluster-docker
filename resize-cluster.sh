@@ -26,8 +26,8 @@ done
 sudo docker rm -f master
 
 # delete hadoop-master image
-sudo docker rmi kiwenlau/hadoop-master:$tag
+sudo docker rmi hadoop-master:$tag
 
 # rebuild hadoop-master image
 pwd
-sudo docker build -t kiwenlau/hadoop-master:$tag .
+sudo docker build -t hadoop-master:$tag .

@@ -1,4 +1,4 @@
-FROM joewoo/hadoop-base:1.0
+FROM hadoop-base:1.0
 
 MAINTAINER JoeWoo <0wujian0@gmail.com>
 

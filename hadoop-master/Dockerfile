@@ -1,6 +1,12 @@
-FROM joewoo/hadoop-base:1.0
+FROM hadoop-base:1.0
 
 MAINTAINER JoeWoo <0wujian0@gmail.com>
+
+# install mysql
+RUN yum install -y wget && cd /tmp && \
+wget http://repo.mysql.com/mysql-community-release-el6-5.noarch.rpm && \
+rpm -ivh mysql-community-release-el6-5.noarch.rpm && \
+yum install mysql-server -y
 
 # move all confugration files into container
 ADD files/* /tmp/
